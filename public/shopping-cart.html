@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1">
+
+    <title>DASW - Carrito de compras</title>
+
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <link rel="stylesheet"
+          href="https://use.fontawesome.com/releases/v5.1.1/css/all.css">
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-dark bg-dark">
+
+        <a class="navbar-brand" href="home.html">
+            DASW
+        </a>
+
+        <a href="home.html"
+           class="btn btn-outline-light">
+            Volver al catalogo
+        </a>
+
+        <div class="d-flex align-items-center">
+
+            <span class="text-light mr-3">
+                Mi cuenta: Ana
+            </span>
+
+            <a href="shopping-cart.html"
+               class="btn btn-outline-light">
+
+                <i class="fas fa-shopping-cart"></i>
+                Carrito
+
+                <span id="cartCount"
+                      class="badge badge-light">
+                    0
+                </span>
+
+            </a>
+
+        </div>
+
+    </nav>
+
+    <main class="container py-4">
+
+        <h2 class="text-center mb-4">
+            Resumen de compra
+        </h2>
+
+        <div id="message"
+             role="status"
+             aria-live="polite"
+             hidden>
+        </div>
+
+        <div id="cartStatus"
+             class="my-3"
+             role="status">
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-8 col-12">
+
+                <div id="cartItems"></div>
+
+            </div>
+
+            <div class="col-md-4 col-12 mt-3 mt-md-0">
+
+                <div class="card">
+
+                    <div class="card-body">
+
+                        <h4 class="card-title">
+                            Total de compra
+                        </h4>
+
+                        <hr>
+
+                        <div class="d-flex justify-content-between">
+
+                            <span>Unidades:</span>
+                            <strong id="totalItems">0</strong>
+
+                        </div>
+
+                        <hr>
+
+                        <div class="d-flex justify-content-between">
+
+                            <strong>Total:</strong>
+
+                            <strong id="cartTotal"
+                                    class="text-success">
+                                $0.00 MXN
+                            </strong>
+
+                        </div>
+
+                        <a href="home.html"
+                           class="btn btn-primary btn-block mt-4">
+                            Seguir comprando
+                        </a>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer class="bg-dark text-light text-center py-3">
+        DASW | Practica 4 - E-commerce
+    </footer>
+
+    <script type="module" src="js/cart.js"></script>
+
+</body>
+</html>

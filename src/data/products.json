@@ -1,0 +1,92 @@
+[
+  {
+    "_uuid": "0d2873d5-6625-4190-8d82-386983bee97e",
+    "_title": "Platano",
+    "_description": "Los mejores platanos de México, directo desde Tabasco.",
+    "_imageUrl": "/images/platano.jpg",
+    "_unit": "pieza",
+    "_stock": 15,
+    "_pricePerUnit": 3.6,
+    "_category": "Fruta"
+  },
+  {
+    "_uuid": "e40680af-8e0e-4949-9631-f16f7132f5b3",
+    "_title": "Manzana",
+    "_description": "Las mejores manzanas de México, directo desde Puebla.",
+    "_imageUrl": "/images/manzana.jpg",
+    "_unit": "piezas",
+    "_stock": 15,
+    "_pricePerUnit": 90,
+    "_category": "Fruta"
+  },
+  {
+    "_uuid": "1f6bbad7-6249-4fc3-90a5-6276655136eb",
+    "_title": "Fresa",
+    "_description": "Las mejores fresas de México, directo desde Irapuato.",
+    "_imageUrl": "/images/fresa.jpg",
+    "_unit": "kg",
+    "_stock": 15,
+    "_pricePerUnit": 80,
+    "_category": "Fruta"
+  },
+  {
+    "_uuid": "0328bbce-1fc4-466b-ba46-4e4d918ad407",
+    "_title": "Aguacate",
+    "_description": "Los mejores aguacates de México, directo desde Michoacán.",
+    "_imageUrl": "/images/aguacate.jpg",
+    "_unit": "kg",
+    "_stock": 15,
+    "_pricePerUnit": 120,
+    "_category": "Fruta"
+  },
+  {
+    "_uuid": "3037d3be-7736-4f1b-95e5-42bbaa9e3630",
+    "_title": "Mermelada de Fresa",
+    "_description": "Agrega sabor a tus desayunos con nuestra mermelada de fresa.",
+    "_imageUrl": "/images/mermelada.jpg",
+    "_unit": "pieza",
+    "_stock": 15,
+    "_pricePerUnit": 42,
+    "_category": "Aderezo"
+  },
+  {
+    "_uuid": "7295b5bb-a727-439c-aac0-3e1d091adca6",
+    "_title": "Crema de Cacahuate",
+    "_description": "Mas proteina, mas sabor. Nuestra mantequilla de maní es 100% libre de azucar.",
+    "_imageUrl": "/images/cacahuate.jpg",
+    "_unit": "oz",
+    "_stock": 15,
+    "_pricePerUnit": 75,
+    "_category": "Aderezo"
+  },
+  {
+    "_uuid": "7f4bddcc-4acd-491c-ab17-40bee03832cd",
+    "_title": "Miel de Agave",
+    "_description": "Excelente sabor menos problemas, miel apta para diabéticos o para tus comidas saludables.",
+    "_imageUrl": "/images/agave.jpg",
+    "_unit": "lt",
+    "_stock": 15,
+    "_pricePerUnit": 152,
+    "_category": "Aderezo"
+  },
+  {
+    "_uuid": "a4db3f0f-fae9-40c3-bbf0-a452828b84ee",
+    "_title": "Chocolate Liquido",
+    "_description": "Mejora tus comidas con nuestro chocolate liquido.",
+    "_imageUrl": "/images/chocolate.jpg",
+    "_unit": "lt",
+    "_stock": 15,
+    "_pricePerUnit": 240,
+    "_category": "Aderezo"
+  },
+  {
+    "_uuid": "c2c8ea5d-bec1-4322-a234-0a7f54db355e",
+    "_title": "Pera",
+    "_description": "Las mejores peras de México, directo desde Puebla.",
+    "_imageUrl": "/images/pera.jpg",
+    "_unit": "kg",
+    "_stock": 15,
+    "_pricePerUnit": 100,
+    "_category": "Aderezo"
+  }
+]
